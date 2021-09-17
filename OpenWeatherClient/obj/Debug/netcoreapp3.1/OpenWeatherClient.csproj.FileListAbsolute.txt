@@ -1,0 +1,9 @@
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\bin\Debug\netcoreapp3.1\OpenWeatherClient.deps.json
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\bin\Debug\netcoreapp3.1\OpenWeatherClient.dll
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\bin\Debug\netcoreapp3.1\OpenWeatherClient.pdb
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Debug\netcoreapp3.1\OpenWeatherClient.AssemblyInfoInputs.cache
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Debug\netcoreapp3.1\OpenWeatherClient.AssemblyInfo.cs
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Debug\netcoreapp3.1\OpenWeatherClient.csproj.CoreCompileInputs.cache
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Debug\netcoreapp3.1\OpenWeatherClient.dll
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Debug\netcoreapp3.1\OpenWeatherClient.pdb
+C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Debug\netcoreapp3.1\OpenWeatherClient.csprojAssemblyReference.cache
