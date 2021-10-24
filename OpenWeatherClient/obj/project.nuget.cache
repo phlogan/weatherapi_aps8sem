@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u6unk9VYRaBLOqEugd7YB9PYGgiNF9izpzwaoAlhGOXFGqu1nLtm42iFpLmkj760bLlrAhLO5Myh70bt2FkPgg==",
+  "dgSpecHash": "CMSkKXoLHx1kKAKCiX4f5RC8kMVoKuBJzwij7BFf9M0EfDrH8qkbUCetcTZdbeEMf9jYYVyDbRSWhGSJ97MGlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj",
+  "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Logan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\API\\API.csproj": {}
+    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\API\\API.csproj": {
+    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\API\\obj\\",
+        "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj": {
-                "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj"
+              "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj": {
+                "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj": {
+    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj",
+        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj",
         "projectName": "OpenWeatherClient",
-        "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj",
+        "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj",
         "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\obj\\",
+        "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

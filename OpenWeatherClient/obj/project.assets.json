@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj",
+      "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj",
       "projectName": "OpenWeatherClient",
-      "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj",
+      "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj",
       "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\obj\\",
+      "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
