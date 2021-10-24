@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Data.Interface;
+using Newtonsoft.Json;
 using OpenWeatherClient.Clients;
 using OpenWeatherClient.Interfaces;
 using OpenWeatherClient.Model.AirPollution;
@@ -13,7 +14,7 @@ namespace OpenWeatherClient.Clients
         //private const string PARAMS = "http://api.openweathermap.org/data/2.5/air_pollution?";
         #endregion
         public string Path { get; set; }
-        public AirQualityIndexClient() : base()
+        public AirQualityIndexClient(IApiAccessRepository apiAccessRepository) : base(apiAccessRepository)
         {
             Path = "air_pollution";
         }

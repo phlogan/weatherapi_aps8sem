@@ -29,6 +29,7 @@ namespace API
             #region :: Injeção de Dependência
             services.AddSingleton<OpenWeatherClient.Interfaces.IApiClient, OpenWeatherClient.Clients.ApiClient>();
             services.AddSingleton<OpenWeatherClient.Interfaces.IAirQualityIndexClient, OpenWeatherClient.Clients.AirQualityIndexClient>();
+            services.AddSingleton<Data.Interface.IApiAccessRepository, Data.Repository.ApiAccessRepository>();
             #endregion
 
             services.AddControllers();
@@ -65,7 +66,7 @@ namespace API
             app.UseSwaggerUI(c =>
             {
                 c.RoutePrefix = "swagger";
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API 8SEM");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIAPS8SEM");
             });
 
         }

@@ -1,6 +1,7 @@
 {
   "api": {
-    "host": "http://api.openweathermap.org/data/2.5/",
-    "token": "9c08ccc2a2142c8711620b8f48e66097"
+    //"host": "http://api.openweathermap.org/data/2.5/",
+    //"token": "9c08ccc2a2142c8711620b8f48e66097",
+    "slug": "open-weather"
   }
 }
