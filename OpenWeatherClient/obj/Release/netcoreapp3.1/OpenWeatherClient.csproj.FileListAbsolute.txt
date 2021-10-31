@@ -7,3 +7,15 @@ C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Release\netcoreapp3.1
 C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.dll
 C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.pdb
 C:\Users\Logan\source\repos\APS.8SEM\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.csprojAssemblyReference.cache
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\bin\Release\netcoreapp3.1\OpenWeatherClient.deps.json
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\bin\Release\netcoreapp3.1\OpenWeatherClient.dll
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\bin\Release\netcoreapp3.1\OpenWeatherClient.pdb
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\bin\Release\netcoreapp3.1\Data.dll
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\bin\Release\netcoreapp3.1\Data.pdb
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.csprojAssemblyReference.cache
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.AssemblyInfoInputs.cache
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.AssemblyInfo.cs
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.csproj.CoreCompileInputs.cache
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.csproj.CopyComplete
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.dll
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\OpenWeatherClient\obj\Release\netcoreapp3.1\OpenWeatherClient.pdb

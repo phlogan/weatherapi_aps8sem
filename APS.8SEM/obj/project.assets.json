@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\APS.8SEM\\APS.8SEM.csproj",
+      "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\APS.8SEM\\APS.8SEM.csproj",
       "projectName": "APS.8SEM",
-      "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\APS.8SEM\\APS.8SEM.csproj",
+      "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\APS.8SEM\\APS.8SEM.csproj",
       "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\APS.8SEM\\obj\\",
+      "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\APS.8SEM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

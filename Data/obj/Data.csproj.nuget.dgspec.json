@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\Data\\Data.csproj": {}
+    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\Data\\Data.csproj": {
+    "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

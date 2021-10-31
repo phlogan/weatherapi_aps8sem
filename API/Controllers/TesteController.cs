@@ -26,5 +26,16 @@ namespace API.Controllers
             var a = _tokenRepository.GetByApiSlug("open-weather");
             return a.Token;
         }
+
+        [Route("getTokenBySlug")]
+        [HttpGet]
+        public string GetTokenAccessBySlug(string slug)
+        {
+            var a = _tokenRepository.GetByApiSlug(slug);
+            if(a == null)
+                return "Nenhum token encontrado.";
+
+            return a.Token;
+        }
     }
 }

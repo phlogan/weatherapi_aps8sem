@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
+using System;
 
 namespace OpenWeatherClient.Model.AirPollution
 {
+    [Serializable]
     public class AirPollutionComponents
     {
         [JsonProperty("co")]

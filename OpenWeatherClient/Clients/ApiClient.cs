@@ -4,16 +4,20 @@ namespace OpenWeatherClient.Clients
 {
     public class ApiClient : IApiClient
     {
-        ///TODO: definir aqui a conexão pra API
-        ///criar um método "CallApi" genérico pra fazer as buscas padronizadamente?
         public ApiClient(
-            IAirQualityIndexClient airQualityIndexClient)
+            IAirQualityIndexClient airQualityIndexClient,
+            IWeatherClient weatherClient,
+            IForecastClient forecastClient)
         {
             AirQualityIndexClient = airQualityIndexClient;
+            WeatherClient = weatherClient;
+            ForecastClient = forecastClient;
         }
 
         #region :: Propriedades
         public IAirQualityIndexClient AirQualityIndexClient { get; set; }
+        public IWeatherClient WeatherClient { get; set; }
+        public IForecastClient ForecastClient { get; set; }
         #endregion
     }
 }

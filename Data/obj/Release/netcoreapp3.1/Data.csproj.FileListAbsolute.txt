@@ -1,0 +1,9 @@
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\bin\Release\netcoreapp3.1\Data.deps.json
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\bin\Release\netcoreapp3.1\Data.dll
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\bin\Release\netcoreapp3.1\Data.pdb
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\obj\Release\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\obj\Release\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\obj\Release\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\obj\Release\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\obj\Release\netcoreapp3.1\Data.dll
+C:\Users\Logan\source\repos\APS.8SEM\weatherapi_aps8sem\Data\obj\Release\netcoreapp3.1\Data.pdb

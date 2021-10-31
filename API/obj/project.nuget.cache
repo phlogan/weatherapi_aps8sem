@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dv3PuIVjWz/kCEj68GTs2K11XM/4jw2lBMrzItsBsNky6I8opNwcovVctyDuoI0SJAfVVFZ16Mr1NvzQRz5Y+g==",
+  "dgSpecHash": "yoYpLAdmbt1PrvcBrgTWBXeQoz/MEudqoJuKICN3kTRyaTW7/EwrZ2Sz20foIParh4fy0CNFV63lSbihIddL6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Logan\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Logan\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",

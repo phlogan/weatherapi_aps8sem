@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UZaJx2vHYmy4f6P6SHCZ9OtWFEw+bd9eIQwZeplHthiSONYATQLtP2QhUQ0G17Bu3itFOaUu/H/drpUAfbFPMw==",
+  "dgSpecHash": "s2T0hmVp0r+zeOTZ5nseFxEGYiXTVZ9P5u5KQX9t0wZPsNWk2kEc3GLOHkfZqjIWP1lRegxbdHf8INnPWkPaZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\OpenWeatherClient\\OpenWeatherClient.csproj",
+  "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\OpenWeatherClient\\OpenWeatherClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Logan\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Logan\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",

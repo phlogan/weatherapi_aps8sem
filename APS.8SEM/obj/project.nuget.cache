@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1vRBzxDCo6jCeO3o4ERZ59C2WHcV32DQBk4tlqK1YktX4tL9RpoMatmuXI3UKsp/nZ8FzcJD5fT831TM88+3ew==",
+  "dgSpecHash": "dF4HtFUHBDkNovWE2IBdOd/9R09/NX7xDBY7UsXX9Hx2i9XiiQQbO8oLr1t/nJrWU78X5Ru8NGYMEnTrvjHm2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\APS.8SEM\\APS.8SEM.csproj",
+  "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\APS.8SEM\\APS.8SEM.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

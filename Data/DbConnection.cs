@@ -7,7 +7,7 @@ namespace Data
     {
         public DbConnection()
         {
-            Server = "192.168.1.35";
+            Server = "192.168.1.33";
             Database = "aps8sem";
             UID = "logan";
             Password = "123mudar";

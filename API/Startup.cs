@@ -29,6 +29,8 @@ namespace API
             #region :: Injeção de Dependência
             services.AddSingleton<OpenWeatherClient.Interfaces.IApiClient, OpenWeatherClient.Clients.ApiClient>();
             services.AddSingleton<OpenWeatherClient.Interfaces.IAirQualityIndexClient, OpenWeatherClient.Clients.AirQualityIndexClient>();
+            services.AddSingleton<OpenWeatherClient.Interfaces.IWeatherClient, OpenWeatherClient.Clients.WeatherClient>();
+            services.AddSingleton<OpenWeatherClient.Interfaces.IForecastClient, OpenWeatherClient.Clients.ForecastClient>();
             services.AddSingleton<Data.Interface.IApiAccessRepository, Data.Repository.ApiAccessRepository>();
             #endregion
 
@@ -50,7 +52,7 @@ namespace API
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
