@@ -17,8 +17,6 @@ namespace OpenWeatherClient.Clients
             var apiAccess = tokenRepository.GetByApiSlug(jObject["api"]["slug"].ToString());
             Host = apiAccess.ApiHost;
             Token = apiAccess.Token;
-            //Host = "http://api.openweathermap.org/data/2.5/";
-            //Token = "9c08ccc2a2142c8711620b8f48e66097";
         }
 
         #region :: Propriedades
