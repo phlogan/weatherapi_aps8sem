@@ -288,7 +288,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MySql.Data": "8.0.27"
+          "MySql.Data": "8.0.27",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/Data.dll": {}

@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Data.Interface;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using OpenWeatherClient.Interfaces;
 using OpenWeatherClient.Model.Weather;
 using OpenWeatherClient.Model.Weather.Forecast;
@@ -9,13 +8,15 @@ namespace API.Controllers
 {
     [Route("api/weather")]
     [ApiController]
-    public class WeatherController : Controller
+    public class WeatherController : BaseController
     {
         public IApiClient OpenWeatherApiClient { get; set; }
-        public WeatherController(IApiClient openWeatherApiClient)
+
+        public WeatherController(IApiClient openWeatherApiClient, ILogRepository logRepository) : base(logRepository)
         {
             OpenWeatherApiClient = openWeatherApiClient;
         }
+
         [HttpGet]
         [Route("currentWeather/{cityName}")]
         public CurrentWeatherData GetCurrentWeatherData(string cityName)
@@ -42,6 +43,5 @@ namespace API.Controllers
 
             return weatherData;
         }
-
     }
 }

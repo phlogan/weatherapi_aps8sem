@@ -1,5 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
+using Newtonsoft.Json.Linq;
 using System;
+using System.IO;
 
 namespace Data
 {
@@ -7,23 +9,34 @@ namespace Data
     {
         public DbConnection()
         {
-            Server = "192.168.1.33";
-            Database = "aps8sem";
-            UID = "logan";
-            Password = "123mudar";
-            Port = "3306";
+            JObject jObject = JObject.Parse(File.ReadAllText(System.IO.Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).FullName, "Data\\appsettings.json")));
+            //Server = "192.168.1.40";
+            //Database = "aps8sem";
+            //UID = "logan";
+            //Password = "123mudar";
+            //Port = "3306";
+            Server = jObject["ConnectionStrings"]["server"].ToString();
+            Database = jObject["ConnectionStrings"]["database"].ToString();
+            UID = jObject["ConnectionStrings"]["uid"].ToString();
+            Password = jObject["ConnectionStrings"]["password"].ToString();
+            Port = jObject["ConnectionStrings"]["port"].ToString();
+            
+            LogSecurityKey = jObject["Logs"]["SecurityKey"].ToString();
+
             Connection = new MySqlConnection(ConnectionString);
         }
+
         public string Server { get; private set; }
         public string Port { get; private set; }
         public string Database { get; private set; }
         public string UID { get; private set; }
         public string Password { get; private set; }
+        public string LogSecurityKey { get; private set; }
         public string ConnectionString
         {
             get
             {
-                return string.Format("SERVER={0};PORT={1};DATABASE={2};UID={3};PASSWORD={4};",
+                return string.Format("SERVER={0};PORT={1};DATABASE={2};UID={3};PASSWORD={4};convert zero datetime=True",
                     Server, Port, Database, UID, Password);
             }
         }
@@ -35,8 +48,15 @@ namespace Data
         /// </summary>
         public MySqlConnection GetConnection()
         {
-            Connection.Open();
-            return Connection;
+            try
+            {
+                Connection.Open();
+                return Connection;
+            }
+            catch(MySqlException ex)
+            {
+                throw ex;
+            }
         }
     }
 }

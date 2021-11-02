@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -31,6 +32,7 @@ namespace API
             services.AddSingleton<OpenWeatherClient.Interfaces.IAirQualityIndexClient, OpenWeatherClient.Clients.AirQualityIndexClient>();
             services.AddSingleton<OpenWeatherClient.Interfaces.IWeatherClient, OpenWeatherClient.Clients.WeatherClient>();
             services.AddSingleton<OpenWeatherClient.Interfaces.IForecastClient, OpenWeatherClient.Clients.ForecastClient>();
+            services.AddSingleton<Data.Interface.ILogRepository, Data.Repository.LogRepository>();
             services.AddSingleton<Data.Interface.IApiAccessRepository, Data.Repository.ApiAccessRepository>();
             #endregion
 

@@ -231,7 +231,8 @@
       },
       "Data/1.0.0": {
         "dependencies": {
-          "MySql.Data": "8.0.27"
+          "MySql.Data": "8.0.27",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "Data.dll": {}

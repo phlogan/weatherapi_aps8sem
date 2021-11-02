@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MrxYL1TVaZ+X68EYUVja0bMl88XM6Sg7H8xPOtd/bjNNGh9jcLXU8ULo7jQvmD6pvWdjSPgQ121SDjvBN0fejQ==",
+  "dgSpecHash": "Q6fESkdLxz6CWaD7ugjx7AVr5nkBAoK1a8AczJvBP/Qrh9dn5l0iAgPcjVMkxg4UvHFBB1yyp30CRqyFY+X6eg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Logan\\source\\repos\\APS.8SEM\\weatherapi_aps8sem\\Data\\Data.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Logan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Logan\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Logan\\.nuget\\packages\\mysql.data\\8.0.27\\mysql.data.8.0.27.nupkg.sha512",
+    "C:\\Users\\Logan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Logan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Logan\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\Logan\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",

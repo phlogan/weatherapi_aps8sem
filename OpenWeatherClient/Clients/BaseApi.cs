@@ -3,7 +3,6 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using OpenWeatherClient.Interfaces;
 using OpenWeatherClient.Model;
-using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 
@@ -13,13 +12,13 @@ namespace OpenWeatherClient.Clients
     {
         public BaseApi(IApiAccessRepository tokenRepository)
         {
-            //JObject jObject = JObject.Parse(File.ReadAllText(System.IO.Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).FullName, "OpenWeatherClient\\apiconnection.json")));
+            JObject jObject = JObject.Parse(File.ReadAllText(System.IO.Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).FullName, "OpenWeatherClient\\apiconnection.json")));
 
-            //var apiAccess = tokenRepository.GetByApiSlug(jObject["api"]["slug"].ToString());
-            //Host = apiAccess.ApiHost;
-            //Token = apiAccess.Token;
-            Host = "http://api.openweathermap.org/data/2.5/";
-            Token = "9c08ccc2a2142c8711620b8f48e66097";
+            var apiAccess = tokenRepository.GetByApiSlug(jObject["api"]["slug"].ToString());
+            Host = apiAccess.ApiHost;
+            Token = apiAccess.Token;
+            //Host = "http://api.openweathermap.org/data/2.5/";
+            //Token = "9c08ccc2a2142c8711620b8f48e66097";
         }
 
         #region :: Propriedades
@@ -32,7 +31,7 @@ namespace OpenWeatherClient.Clients
         {
             using (var client = new HttpClient())
             {
-                var requestUrl = string.Format("{0}/{1}{2}?", Host, MainPath, 
+                var requestUrl = string.Format("{0}/{1}{2}?", Host, MainPath,
                     !string.IsNullOrWhiteSpace(requestData.Pathing)
                     ? requestData.Pathing.Trim().Trim('/')
                     : "");

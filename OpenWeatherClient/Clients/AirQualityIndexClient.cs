@@ -1,20 +1,13 @@
 ﻿using Data.Interface;
-using Newtonsoft.Json;
-using OpenWeatherClient.Clients;
 using OpenWeatherClient.Interfaces;
 using OpenWeatherClient.Model;
 using OpenWeatherClient.Model.AirPollution;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
 
 namespace OpenWeatherClient.Clients
 {
     public class AirQualityIndexClient : BaseApi, IAirQualityIndexClient
     {
-        #region :: Constantes
-        //private const string PARAMS = "http://api.openweathermap.org/data/2.5/air_pollution?";
-        #endregion
         public AirQualityIndexClient(IApiAccessRepository apiAccessRepository) : base(apiAccessRepository)
         {
             MainPath = "air_pollution";

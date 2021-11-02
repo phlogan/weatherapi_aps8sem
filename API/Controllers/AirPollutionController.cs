@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
+﻿using Data.Interface;
+using Microsoft.AspNetCore.Mvc;
 using OpenWeatherClient.Interfaces;
 using OpenWeatherClient.Model.AirPollution;
 
@@ -7,33 +7,19 @@ namespace API.Controllers
 {
     [Route("api/airQuality")]
     [ApiController]
-    public class AirPollutionController : Controller
+    public class AirPollutionController : BaseController
     {
-        public IApiClient OpenWeatherApiClient { get; set; }
-        public AirPollutionController(IApiClient openWeatherApiClient)
+        protected IApiClient _openWeatherApiClient;
+        public AirPollutionController(IApiClient openWeatherApiClient, ILogRepository logRepository) : base(logRepository)
         {
-            OpenWeatherApiClient = openWeatherApiClient;
+            _openWeatherApiClient = openWeatherApiClient;
         }
-        //[HttpGet]
-        //public string Get()
-        //{
-        //    var airPollutionData = OpenWeatherApiClient.AirQualityIndexClient.GetCurrentAirPollutionData("10", "10");
-        //    return JsonConvert.SerializeObject(airPollutionData);
-        //}
-
-        //[HttpGet]
-        //[Route("getByLatLon")]
-        //public string GetByLatLon(string latitude, string longitude)
-        //{
-        //    var airPollutionData = OpenWeatherApiClient.AirQualityIndexClient.GetCurrentAirPollutionData(latitude, longitude);
-        //    return JsonConvert.SerializeObject(airPollutionData);
-        //}
 
         [HttpGet]
         [Route("getData")]
         public AirPollutionData GetAirPollutionData(string latitude, string longitude)
         {
-            var data = OpenWeatherApiClient.AirQualityIndexClient.GetCurrentAirPollutionData(latitude, longitude);
+            var data = _openWeatherApiClient.AirQualityIndexClient.GetCurrentAirPollutionData(latitude, longitude);
             return data;
         }
 
@@ -41,8 +27,19 @@ namespace API.Controllers
         [Route("index")]
         public string GetAirQualityIndex(string latitude, string longitude)
         {
-            var index = OpenWeatherApiClient.AirQualityIndexClient.GetAirQualityIndex(latitude, longitude);
+            var index = _openWeatherApiClient.AirQualityIndexClient.GetAirQualityIndex(latitude, longitude);
             return index;
         }
+
+        //public override void OnActionExecuting(ActionExecutingContext filterContext)
+        //{
+        //    var ip = HttpContext.Connection.RemoteIpAddress.ToString();
+        //    _logRepository.RegisterLog(new Data.Entity.ApiLog(ip,
+        //        "api",
+        //        string.Join(':', filterContext.ActionDescriptor.DisplayName.Split('.').Skip(2)),
+        //        DateTime.UtcNow
+        //        ));
+        //}
+
     }
 }
