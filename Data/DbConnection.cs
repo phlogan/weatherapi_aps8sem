@@ -1,6 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using Newtonsoft.Json.Linq;
-using System;
 using System.IO;
 
 namespace Data
@@ -10,17 +9,13 @@ namespace Data
         public DbConnection()
         {
             JObject jObject = JObject.Parse(File.ReadAllText(System.IO.Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).FullName, "Data\\appsettings.json")));
-            //Server = "192.168.1.40";
-            //Database = "aps8sem";
-            //UID = "logan";
-            //Password = "123mudar";
-            //Port = "3306";
+
             Server = jObject["ConnectionStrings"]["server"].ToString();
             Database = jObject["ConnectionStrings"]["database"].ToString();
             UID = jObject["ConnectionStrings"]["uid"].ToString();
             Password = jObject["ConnectionStrings"]["password"].ToString();
             Port = jObject["ConnectionStrings"]["port"].ToString();
-            
+
             LogSecurityKey = jObject["Logs"]["SecurityKey"].ToString();
 
             Connection = new MySqlConnection(ConnectionString);
@@ -53,7 +48,7 @@ namespace Data
                 Connection.Open();
                 return Connection;
             }
-            catch(MySqlException ex)
+            catch (MySqlException ex)
             {
                 throw ex;
             }

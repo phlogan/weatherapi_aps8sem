@@ -18,31 +18,5 @@ namespace API.Controllers
         {
             return "Works";
         }
-
-        //[Route("gettoken")]
-        //[HttpGet]
-        //public string GetTokenAccess()
-        //{
-        //    var a = _tokenRepository.GetByApiSlug("open-weather");
-        //    return a.Token;
-        //}
-
-        //[Route("teste")]
-        //[HttpGet]
-        //public string Teste()
-        //{
-        //    return "teste";
-        //}
-
-        //[Route("getTokenBySlug")]
-        //[HttpGet]
-        //public string GetTokenAccessBySlug(string slug)
-        //{
-        //    var a = _tokenRepository.GetByApiSlug(slug);
-        //    if(a == null)
-        //        return "Nenhum token encontrado.";
-
-        //    return a.Token;
-        //}
     }
 }

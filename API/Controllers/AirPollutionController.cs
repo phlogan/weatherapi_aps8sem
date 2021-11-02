@@ -30,16 +30,5 @@ namespace API.Controllers
             var index = _openWeatherApiClient.AirQualityIndexClient.GetAirQualityIndex(latitude, longitude);
             return index;
         }
-
-        //public override void OnActionExecuting(ActionExecutingContext filterContext)
-        //{
-        //    var ip = HttpContext.Connection.RemoteIpAddress.ToString();
-        //    _logRepository.RegisterLog(new Data.Entity.ApiLog(ip,
-        //        "api",
-        //        string.Join(':', filterContext.ActionDescriptor.DisplayName.Split('.').Skip(2)),
-        //        DateTime.UtcNow
-        //        ));
-        //}
-
     }
 }
